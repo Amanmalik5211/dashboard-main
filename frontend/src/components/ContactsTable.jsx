@@ -29,7 +29,7 @@ const ContactsTable = () => {
     const params = new URLSearchParams({
       search,
       page,
-      limit: 6,
+      limit: 12,
     });
 
     if (statusFilter) params.append("status", statusFilter);

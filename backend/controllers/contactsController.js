@@ -10,7 +10,7 @@ const loadContacts = async () => {
 };
 
 const getContacts = (req, res) => {
-  const { search, status, field, value, page = 1, limit = 6 } = req.query;
+  const { search, status, field, value, page = 1, limit = 12 } = req.query;
   let filtered = store.getContacts();
 
 if (search) {
