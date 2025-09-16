@@ -36,7 +36,7 @@ const Sidebar = ({ sidebarOpen, toggleSidebar }) => {
     <>
       <aside
         className={`fixed lg:static top-0   left-0 h-screen w-64 bg-gray-950 border-r border-gray-800 flex flex-col transform transition-transform duration-300 z-40
-        ${sidebarOpen ? "translate-x-0" : "-translate-x-full lg:translate-x-0"}`}
+        ${sidebarOpen ? "translate-x-0"  : "-translate-x-full lg:translate-x-0"}`}
       >
         <TeamSwitcher />
 
